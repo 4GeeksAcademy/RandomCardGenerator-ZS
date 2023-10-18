@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.carta {
+  height: 300px;
+  width: 220px;
+  border-radius: 10%;
+  border: 1px solid black;
+  margin: 0% auto;
+  display: block;
+  background-color: white;
+}
+.iconosup {
+  text-align: start;
+  height: 33%;
+  padding-left: 10%;
+  padding-top: 10%;
+  font-size: 50px;
+}
+
+.elvalor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  padding-top: 10%;
+  font-size: 50px;
+}
+
+.iconoinf {
+  padding-right: 10%;
+  padding-top: 15%;
+  height: 33%;
+  font-size: 50px;
+}
+
+#icono {
+  transform: rotate(180deg);
+  text-align: start;
+}
+
+.boton {
+  padding-top: 2%;
+}
+
+body {
+  background-color: green;
+}
